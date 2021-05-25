@@ -1,11 +1,16 @@
 import './App.css';
 import Header from './Header'
-import Technologies from "./Technologies";
+import Content from "./Content";
+import NavigationMenu from "./NavigationMenu";
 
 function App() {
   return (<div>
       <Header/>
-      <Technologies/>
+      <div className="main-page-main-countent-wrapper">
+          <NavigationMenu/>
+          <Content/>
+      </div>
+
       </div>);
 }
 
