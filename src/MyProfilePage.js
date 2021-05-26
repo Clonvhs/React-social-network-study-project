@@ -1,7 +1,7 @@
 import userMainPageBackgroundPhoto from './images/userMainPageBackgroundPhoto.jpeg'
-import styles from './Content.module.css'
+import styles from './MyProfilePage.module.css'
 
-const Content = () => {
+const MyProfilePage = () => {
     return (<div>
         <img className={styles.userMainPageBackgroundPhoto} src={userMainPageBackgroundPhoto}/>
         <div className={styles.userInfoBlock}>
@@ -30,4 +30,4 @@ const Content = () => {
     </div>)
 }
 
-export default Content
+export default MyProfilePage

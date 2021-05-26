@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header'
-import Content from "./Content";
+import MyProfilePage from "./MyProfilePage";
 import NavigationMenu from "./NavigationMenu";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Header/>
       <div className="main-page-main-countent-wrapper">
           <NavigationMenu/>
-          <Content/>
+          <MyProfilePage/>
       </div>
 
       </div>);
