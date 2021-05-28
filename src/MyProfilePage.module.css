@@ -5,3 +5,14 @@
     margin-right: 2vw;
     margin-left: 2vw;
 }
+.userInfoBlock{
+    display: flex;
+    margin-bottom: 25px;
+}
+.userInfoBlockRightSide{
+    margin-left: 25px;
+}
+.userAvatar{
+    width: 45px;
+    height: 45px;
+}
