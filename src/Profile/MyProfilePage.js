@@ -1,7 +1,7 @@
-import userMainPageBackgroundPhoto from './images/userMainPageBackgroundPhoto.jpeg'
-import userProfileImage from './images/userProfileImage.png'
+import userMainPageBackgroundPhoto from '../images/userMainPageBackgroundPhoto.jpeg'
+import userProfileImage from '../images/userProfileImage.png'
 import styles from './MyProfilePage.module.css'
-import SinglePost from './SinglePost'
+import SinglePost from './Posts/SinglePost'
 
 const MyProfilePage = () => {
     return (<div>

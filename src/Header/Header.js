@@ -1,4 +1,4 @@
-import pepsiLogo from './images/pepsiLogo.png';
+import pepsiLogo from '../images/pepsiLogo.png';
 import styles from './Header.module.css'
 
 const Header = () => {

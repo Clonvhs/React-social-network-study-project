@@ -1,14 +1,16 @@
 import './App.css';
-import Header from './Header'
-import MyProfilePage from "./MyProfilePage";
-import NavigationMenu from "./NavigationMenu";
+import Header from './Header/Header'
+import MyProfilePage from "./Profile/MyProfilePage";
+import NavigationMenu from "./NavigationMenu/NavigationMenu";
+import Dialogs from "./Dialogs/Dialogs";
 
 function App() {
   return (<div>
       <Header/>
       <div className="main-page-main-countent-wrapper">
           <NavigationMenu/>
-          <MyProfilePage/>
+          <Dialogs/>
+          {/*<MyProfilePage/>*/}
       </div>
 
       </div>);

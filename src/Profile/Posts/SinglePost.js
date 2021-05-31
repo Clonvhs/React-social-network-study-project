@@ -1,5 +1,5 @@
 import styles from './SinglePost.module.css'
-import postUserAvatarImage from "./images/postUserAvatarImage.png";
+import postUserAvatarImage from "../../images/postUserAvatarImage.png";
 
 const SinglePost = () =>{
     return(<div className={styles.mainWrapper}>
