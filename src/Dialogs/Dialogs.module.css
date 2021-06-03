@@ -1,0 +1,23 @@
+.mainWrapper{
+    width: 100%;
+    background-color: dodgerblue;
+}
+.separatorLeftSideBlock{
+display: flex;
+
+}
+.userListBlock{
+    margin-right: 5vw;
+}
+.userDialogName{
+    text-align: center;
+    border: 1px solid yellowgreen;
+    overflow:hidden;
+    max-width: 10vw;
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 5px;
+}
+.dialogBlock{
+    margin-top: 25px;
+}
